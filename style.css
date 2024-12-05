@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(bg_header.jpg);
+    background-size: contain;
+
+}
+
+.Navbardiv{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+    
+}
+.navbar1{
+    display: flex;
+    padding-top: 1rem;
+    gap: 5rem;
+    letter-spacing: 4px;
+}
+.navbar1 a{
+    color: white;
+}
+.navbar1 a:hover{
+    border-bottom: 3px solid #c7a67d;
+    color: #c7a67d ;
+}
+
+.navbar2{
+    display: flex;
+    padding-top: 1rem;
+    gap: 5rem;
+    letter-spacing: 4px;
+    
+}
+.navbar2 a{
+    color: white;
+}
+
+
+.navbar2 a:hover{
+    border-bottom: 3px solid #c7a67d;
+    color: #c7a67d;
+}
+.navbarlogo{
+    padding: 0 2rem 0 2rem;
+}
+.Logo:hover{
+    content: url(logo_hover.png);
+    
+    
+}
+main .premierTitre{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}.premierTitre h1{
+    font-size: 5rem;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 4px;
+    text-align: right;
+    margin-left: 30vh;
+    margin-top: 8vh;
+
+
+}
+.premierTitre p{
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 4px;
+    text-align: right;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-left: 4vh;
+    margin-top: 3vh;
+    
+
+}
+.button1{
+    padding: 10vh 0 0 70vh;
+    }
+
+ .button1 a{
+    
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    background: #c7a67d;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+.deuxiemePage{
+    background-color: #606060 ;
+    display: flex;
+    justify-content: center;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.deuxiemeTitre{
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    width: 70%;
+    height: 100%;
+    
+}
+
+.deuxiemeTitre h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-top: 7vh;
+    height: 10%;
+    width: 100%;
+    
+}
+.troisiemeTitre{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    height: 9%;
+    width: 33%;
+    
+}
+.paragraphePhoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    width: 100%;
+    height: 80%;
+}
+.paragrapheZ{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 1.1rem;
+    color: white;
+    letter-spacing: 2px;
+    width: 70%;
+    padding-right: 2rem;
+}
+.paragraphe1 , .paragraphe2 , .paragraphe3{
+    margin-bottom: 2em;
+}
+.paragraphe2 {
+    color: #c7a67d;
+}
+.photoLondon{
+    position: relative;
+    width: 33%;
+    height: 75%;
+    display: flex;
+    justify-content: start;
+}
+.paragraphe3{
+    padding-right: 1.5rem;
+}
+.paragraphe2{
+    border-left: #c7a67d  solid ;
+    padding-left: 12%;  
+}
+.Londonbouton{
+    position: absolute;
+    bottom: -15px;
+    left: 25px;
+    width: fit-content;    
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    background-color: #c7a67d;
+    padding: 5px 10px;
+    font-family: "Barlow Condensed", sans-serif;
+    color: white;
+}
+
+.troisiemePage{
+    display: flex;
+    justify-content: center;
+    background-color: #606060 ;
+    height: 600px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.quatriemeTitre{
+    display: flex;
+    flex-direction: column;
+    background-color: #cca57c;
+    width: 70%;
+    height: 100%;
+}
+.quatriemeTitre h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-top: 7vh;
+    height: 10%;
+    width: 100%;
+}
+.boiteAbout{
+ display: flex;
+ flex-direction: row;
+ height: 65%;
+ width: 100%;
+ padding-top: 3%;
+}
+.imgAbout{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    height: 100%;
+    width: 55%;
+}
+.imgAbout img{
+    height: 100%;
+}
+.photoParis{
+    position: relative;
+}
+.photoHall{
+    position: relative;
+}
+.HallP{
+    font-size: 1.7rem;
+    position: absolute;   
+    color: white;
+    top: 10%;
+    left: 10%;
+}
+.Parisbouton{
+    font-size: 1.3rem;
+    position: absolute;   
+    color: white;
+    bottom: 6%;
+    left: 15%;
+    background-color: #272727;
+    padding: 2px 5px ;
+    letter-spacing: 3px;
+}
+
+.HallL{
+    font-size: 1.7rem;
+    position: absolute;   
+    color: white;
+    top: 10%;
+    left: 10%;
+}
+
+
+.LondonHbouton{
+    font-size: 1.3rem;
+    position: absolute;   
+    color: white;
+    bottom: 6%;
+    left: 15%;
+    background-color: #272727;
+    padding: 2px 5px ;
+    letter-spacing: 3px;
+}
+.textAbout{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: 100%;
+    width: 40%;
+}
+.boite12{
+    height: 50%;
+}
+.photo12{
+    height: 100%;
+}
+.h4market{
+    padding-top: 4% ;
+    height: 20%;
+    font-size: 1.8rem ;
+    letter-spacing: 2px;
+}
+.paragraphe4{
+    padding-top: 2%;
+    font-size: 1.2rem;
+}
+
+.quatriemePage{
+    display: flex;
+    justify-content: center;
+    background-color: #606060 ;
+    height: 800px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.cinquiemeTitre{
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    width: 70%;
+    height: 100%;
+}
+.cinquiemeTitre h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-top: 7vh;
+    height: 10%;
+    width: 100%;
+}
+.boiteAbout2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 65%;
+    width: 100%;
+    padding-top: 3%;
+   }
+.boiteLogo{
+    display: flex;
+    height: 100%;
+    width: 55%;
+    padding-left: 7%;
+}
+.photoDev{
+    height: 35%;
+    width: 55%;
+}
+ .photoPlans{
+    height: 35%;
+    width: 55%;
+}
+.boiteDev{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+.boitePlans{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+.boiteDev h4{
+    color:  white;
+    font-size: 2rem;
+    padding: 2%;
+}
+.boitePlans h4{
+    color:  white;
+    font-size: 2rem;
+    padding: 2%;
+}
+.boitePlans p,.boiteDev p{
+    color: #606060;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+.boutonDev{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    background-color: #606060;
+    height: 7%;
+    width: 40%;
+    padding: 2px 5px ;
+    color: #c7a67d;
+    margin-top: 5%;
+    border-left: #c7a67d 6px solid;
+}
+
+.boutonPlans{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    background-color: #606060;
+    height: 7%;
+    width: 40%;
+    padding: 2px 5px ;
+    color: #c7a67d;
+    margin-top: 31%;
+    border-left: #c7a67d 6px solid;
+}
+.boutonPlans:hover, .boutonDev:hover{
+    background-color: #c7a67d;
+    color: #272727;
+}
+.boiteCarte{
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    height: 100%;
+    width: 35%;
+    padding-right: 4%;
+}
+.imgMap{
+    display: flex;
+    width: 100%;
+    padding: 5% 0 5% 0;
+    border-top: #c7a67d 1px solid;
+    border-bottom: #c7a67d 1px solid;
+    
+}
+.paragraphe5{
+    display: flex;
+    align-items: flex-end;
+    height: 40%;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    text-align: right;
+}
+footer{
+    font-family: "Barlow Condensed", sans-serif;
+    display: flex;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg_footer\ \(1\).jpg);
+    background-size: cover;
+    
+    
+}
+.formFooter{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 60%;
+}
+.gaucheForm{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    background-color: #c7a67d;
+    opacity: .9;
+    color: white;
+    content: url(visuelgauche.jpg);
+    
+   
+    
+}
+.droiteForm{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    background-color: black;
+    opacity: .9;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px 20px;
+}
+::placeholder{
+    color: #606060;
+}
+.gaucheForm h1{
+    padding: 6%;
+    font-size: 2.4rem;
+    
+    
+}
+#Name,#E-mail{
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    background: none;
+    border: none;
+    border-bottom: #606060 1px solid;
+    padding-bottom: 10px;
+    
+}
+#Message{
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #606060;
+}
+#ENVOYER{
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    padding: 8px 8px;
+    background-color: #c7a67d;
+    font-size: 1.2rem ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer ;
+    border: none;
+}
